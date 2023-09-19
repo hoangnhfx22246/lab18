@@ -1,0 +1,22 @@
+body::before {
+  display: block;
+  content: "";
+  height: 55px;
+}
+
+/* carousel */
+.carousel-item {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+.carousel-caption {
+  top: 50%;
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    transform: translateY(-50%);
+  }
+}
